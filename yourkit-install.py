@@ -42,7 +42,7 @@ if latest is None:
 
 latestFilename = latest[29:]
 
-latestTrimmedFilename = latestFilename[:len(latestFilename)-14]
+latestTrimmedFilename = latestFilename[:11]
 
 print("Latest version: "+latestFilename)
 
