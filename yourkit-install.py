@@ -5,7 +5,7 @@ import shutil
 import requests
 import sys
 
-download_regexp = re.compile("\/download\/yjp-2015-build-[0-9]+-linux.tar.bz2")
+download_regexp = re.compile("\/download\/yjp-2016.02-b[0-9]+-linux.tar.bz2")
 
 def get_download_url():
     scrape = requests.get('https://www.yourkit.com/java/profiler/download')
